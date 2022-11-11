@@ -1,10 +1,10 @@
 <template>
-  <Home></Home>
+  <p>这是effects界面</p>
 </template>
 
 <script setup lang="ts">
-import Home from './views/home/index.vue'
 </script>
 
 <style scoped>
+
 </style>

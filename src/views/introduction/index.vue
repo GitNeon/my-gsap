@@ -1,10 +1,10 @@
 <template>
-  <Home></Home>
+  <p>这是简介页面</p>
 </template>
 
 <script setup lang="ts">
-import Home from './views/home/index.vue'
 </script>
 
 <style scoped>
+
 </style>
