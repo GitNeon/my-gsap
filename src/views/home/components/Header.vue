@@ -34,7 +34,7 @@ header {
 header .gsap-logo {
   width: 300px;
   height: 110px;
-  background-image: url('src/assets/greensock-logo.svg');
+  background-image: url(../../../assets/greensock-logo.svg);
   background-size: cover;
 }
 

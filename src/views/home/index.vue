@@ -48,9 +48,6 @@ const go = (name: string, path: string) => {
   const _cfg = {
     to: {
       path: path,
-      params: {
-        lang: "zh-CN",
-      },
     },
   };
 
