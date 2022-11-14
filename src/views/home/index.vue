@@ -54,21 +54,12 @@ const go = (name: string, path: string) => {
     },
   };
 
-  return h(RouterLink, _cfg, { default: () => name });
+  return () => h(RouterLink, _cfg, { default: () => name });
 };
 
 const menuOptions: MenuOption[] = reactive([
   {
-    label: () =>
-      h(
-        RouterLink,
-        {
-          to: {
-            path: "/introduction",
-          },
-        },
-        { default: () => "GSAP入门" }
-      ),
+    label: go('GSAP入门','/introduction'),
     key: "introduction",
   },
   {
@@ -81,16 +72,7 @@ const menuOptions: MenuOption[] = reactive([
         key: "properties",
         children: [
           {
-            label: () =>
-              h(
-                RouterLink,
-                {
-                  to: {
-                    path: "/gsapcore/effects",
-                  },
-                },
-                { default: () => "gsap.effects" }
-              ),
+            label: go('gsap.effects','/gsapcore/properties/effects'),
             key: "gsap.effects",
           },
           {

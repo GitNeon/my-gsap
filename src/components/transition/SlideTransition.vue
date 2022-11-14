@@ -19,7 +19,7 @@
 
 /* 动画进入 - 进行中 */
 .fade-enter-active {
-  transition: all 0.4s;
+  transition: all 0.35s;
 }
 
 /* 动画进入 - 结束 */
@@ -36,7 +36,7 @@
 
 /* 动画离开 - 进行中 */
 .fade-leave-active {
-  transition: all 0.4s;
+  transition: all 0.35s;
 }
 
 /* 动画离开 - 结束 */
