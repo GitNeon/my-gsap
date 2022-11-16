@@ -73,7 +73,7 @@ const menuOptions: MenuOption[] = reactive([
             key: "gsap.effects",
           },
           {
-            label: "gsap.globalTimeline",
+            label: go("gsap.globalTimeline","/gsapcore/properties/globaltimeline"),
             key: "gsap.globalTimeline",
           },
           {

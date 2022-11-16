@@ -29,8 +29,6 @@ gsap.registerEffect({
   extendTimeline: true
 })
 
-
-
 const demo = ref<HTMLElement | null>(null);
 
 const eachHtmlEl = (el: HTMLElement | null) => {

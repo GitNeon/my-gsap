@@ -8,15 +8,24 @@
     <n-card hoverable title="">
       <n-code language="javascript" :code="code_2" />
     </n-card>
-    <p>鼠标放到方块上，div方块消失</p>
+    <p>鼠标放到方块上，div方块消失。</p>
     <n-card hoverable title="">
       <FadeEffect></FadeEffect>
     </n-card>
+    <p>GSAP在这里提供了4个关键服务:</p>
+    <ul>
+      <li>它将 "targets "解析成一个数组。因此，如果选择器文本被传递进来，它就会变成一个传递给效果函数的元素数组。</li>
+      <li>它每次都对配置对象应用默认值。不需要添加一堆if语句或自己应用默认值。</li>
+      <li>
+        如果你设置extendTimeline: true，效果的名称将被添加为GSAP的时间线原型的一个方法，这意味着你可以直接在任何时间线中插入该效
+        果的实例
+      </li>
+    </ul>
   </div>
 </template>
 
 <script setup lang="ts">
-import FadeEffect from '@/views/demo/FadeEffect.vue';
+import FadeEffect from "@/views/demo/FadeEffect.vue";
 
 const code_1 = `
   gsap.effects.explode(".box", {
