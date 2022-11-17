@@ -77,11 +77,11 @@ const menuOptions: MenuOption[] = reactive([
             key: "gsap.globalTimeline",
           },
           {
-            label: "gsap.ticker",
+            label: go("gsap.ticker","/gsapcore/properties/ticker"),
             key: "gsap.ticker",
           },
           {
-            label: "gsap.utils",
+            label: go("gsap.utils", "/gsapcore/properties/utils"),
             key: "gsap.utils",
           },
           {

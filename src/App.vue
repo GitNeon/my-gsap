@@ -1,6 +1,8 @@
 <template>
   <n-config-provider :hljs="hljs">
-    <Home></Home>
+    <n-message-provider>
+      <Home></Home>
+    </n-message-provider>
   </n-config-provider>
 </template>
 
