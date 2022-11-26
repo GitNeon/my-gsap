@@ -84,10 +84,6 @@ const menuOptions: MenuOption[] = reactive([
             label: go("gsap.utils", "/gsapcore/properties/utils"),
             key: "gsap.utils",
           },
-          {
-            label: "gsap.effects",
-            key: "gsap.version",
-          },
         ],
       },
     ],
